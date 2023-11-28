@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação de Segundo Grau</title>
+    <link rel="shortcut icon" href="style/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Equação de Segundo Grau</h1>
+    </header>
+    <section>
+        <p>Digite os valores de A, B e C e será resolvido a Equação de 2º grau</p>
+        <p>Equação base: <strong>ax<sup>2</sup> + bx + c = 0</strong></p>
+        <p>Digite o valor de A: <input type="number" name="a" id="a" onkeydown="eventA(event)"></p>
+        <p>Digite o valor de B: <input type="number" name="b" id="b" onkeydown="eventB(event)"></p>
+        <p>Digite o valor de C: <input type="number" name="c" id="c" onkeydown="eventC(event)"></p>
+        <input type="button" value="Verificar" onclick="verificar()">
+        <div id="res">
+
+        </div>
+    </section>
+
+    <footer>&copy;Feito por André</footer>
+    <script src="index.js"></script>
+</body>
+</html>
